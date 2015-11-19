@@ -1,0 +1,28 @@
+body {
+	background-color:rgba(36,39,40,1);
+	color: rgba(95,205,35,1);
+	font-family: Avenir,Helvetica,Arial,sans-serif;
+}
+
+.toggle {
+	display:none;
+}
+
+.item-heading {
+	font-size: 2em;
+}
+
+
+input ~ .expanding-box {
+	max-height: 0;
+	overflow:hidden;
+}
+
+input:checked ~ .expanding-box {
+	max-height: 10000px;
+}
+
+.expanding-box {
+	-webkit-transition: all 1s ease-in-out;
+	transition: all 1s ease-in-out;
+}
