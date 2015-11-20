@@ -4,6 +4,11 @@ body {
 	font-family: Avenir,Helvetica,Arial,sans-serif;
 }
 
+.heading {
+	text-align: center;
+	font-size: 2.5em;
+}
+
 .toggle {
 	display:none;
 }
@@ -12,10 +17,34 @@ body {
 	font-size: 2em;
 }
 
+input.toggle + .item-heading:after{
+	font-size:0.5em;
+	color: rgba(75,75,75,1);
+	content: " (click to expand)";
+}
+
+input.toggle:checked + .item-heading:after{
+	content: " (click to collapse)";
+}
+
+section {
+	margin-bottom: 30px;
+}
+
+hr {
+	height: 3px;
+	background: #a32222;
+	font-size: 0;
+	border: 0;
+	width: 80%;
+	background-image: linear-gradient(to right, rgba(36,39,40,1), #a32222, rgba(36,39,40,1));
+}
 
 input ~ .expanding-box {
 	max-height: 0;
 	overflow:hidden;
+	margin-left: 25px;
+	margin-top: -10px;
 }
 
 input:checked ~ .expanding-box {
@@ -23,6 +52,23 @@ input:checked ~ .expanding-box {
 }
 
 .expanding-box {
-	-webkit-transition: all 1s ease-in-out;
-	transition: all 1s ease-in-out;
+	-webkit-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+
+.expanding-box a {
+	color: rgba(25,90,150,1);
+	text-decoration:none;
+}
+
+.expanding-box a:visited {
+	color: rgba(75,90,150,1);
+	text-decoration:none;
+}
+
+.item-img {
+	float: left;
+	height: 150px;
+	width: auto;
+	margin-right: 10px;
 }
