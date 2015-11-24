@@ -4,8 +4,19 @@ body {
 	font-family: Avenir,Helvetica,Arial,sans-serif;
 }
 
+table {
+	border-collapse: collapse;
+	border-style: hidden;
+	margin-top:10px;
+}
+
+table td {
+	border: 1px solid black;
+	padding: 2px;
+}
+
 .heading {
-	text-align: center;
+		text-align: center;
 	font-size: 2.5em;
 }
 
@@ -27,6 +38,17 @@ input.toggle:checked + .item-heading:after{
 	content: " (click to collapse)";
 }
 
+.item-img {
+	float: left;
+	height: 150px;
+	width: auto;
+	padding-right:20px;
+}
+
+.item-desc {
+	margin-right:10px;
+}
+
 section {
 	margin-bottom: 30px;
 }
@@ -44,7 +66,7 @@ input ~ .expanding-box {
 	max-height: 0;
 	overflow:hidden;
 	margin-left: 25px;
-	margin-top: -10px;
+	margin-top: -5px;
 }
 
 input:checked ~ .expanding-box {
@@ -54,6 +76,11 @@ input:checked ~ .expanding-box {
 .expanding-box {
 	-webkit-transition: all 0.5s ease-in-out;
 	transition: all 0.5s ease-in-out;
+	margin-right:10px;
+}
+
+.attribute-name {
+	color: blue;
 }
 
 .expanding-box a {
@@ -66,9 +93,3 @@ input:checked ~ .expanding-box {
 	text-decoration:none;
 }
 
-.item-img {
-	float: left;
-	height: 150px;
-	width: auto;
-	margin-right: 10px;
-}

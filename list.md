@@ -1,5 +1,4 @@
 ##Misc:
-Wool Socks
 Remote Control Outlet - http://www.amazon.com/dp/B00DQELHBS
 USB SNES controller - http://www.amazon.com/dp/B002B9XB0E
 
@@ -37,12 +36,8 @@ http://www.tinroofteas.com/product/honeybush-tea
 http://www.tinroofteas.com/product/rooibos-jungle-fire
 
 ##Books/manga:
-Lord of Souls - http://www.amazon.com/dp/0345508025
-The Last Wish - http://www.amazon.com/dp/B0010SIPT4
-King of Bandits Jing Twilight Tales
+King of Bandits Jing Twilight Tales (vol 5 and 6)
 Gunslinger Girl
-Osric Fingerbone Book 1 - http://www.amazon.com/dp/1499149239
-Land Rising - http://www.amazon.com/dp/1493600435
 Fame is Infamy - http://www.amazon.com/dp/B0084733C8
 Got the Life - http://www.amazon.com/dp/006166250X
 I Am Second - http://www.amazon.com/dp/1400275997
